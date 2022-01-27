@@ -1,0 +1,75 @@
+.form {
+  background-color: rgb(185, 45, 45);
+  border: 2px solid white;
+  width: 250px;
+  color: rgb(255, 255, 255);
+  box-shadow: brown 5px 5px 50px;
+  border-radius: 20px;
+  padding: 25px;
+  margin: auto;
+}
+input,
+textarea {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-color: white;
+  background-color: rgb(185, 45, 45);
+  color: rgb(201, 189, 189);
+  outline: none;
+  width: 100%;
+}
+::placeholder {
+  color: rgb(250, 221, 221);
+}
+#btn {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+/* #disable {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+} */
+.Card {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 2px solid white;
+  background-color: rgb(185, 45, 45);
+  margin: auto;
+  width: 650px;
+  height: fit-content;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: brown 5px 5px 50px;
+  text-align: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+p {
+  font-size: 35px;
+}
+.cardphoto {
+  grid-row: 1 / span 2;
+}
+.cardname {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.cardage {
+  grid-column: 2 / span 2;
+}
+.cardaddress {
+  grid-column: 1 / span 3;
+}
+h6 {
+  color: aqua;
+}
